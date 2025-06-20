@@ -1,0 +1,46 @@
+.App {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background-color: #f9f9f9;
+}
+
+.App-header h1 {
+  color: #333;
+}
+
+.App-header h2 {
+  color: #333;
+}
+
+.posts-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.posts-table, .posts-table th, .posts-table td {
+  border: 1px solid #aaa;
+}
+
+.posts-table th, .posts-table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.post-form input {
+  padding: 8px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.post-form button {
+  padding: 8px 16px;
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.post-form button:hover {
+  background-color: #008ecc;
+}

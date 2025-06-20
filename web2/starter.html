@@ -24,7 +24,7 @@
 
   <script>
     async function loadPosts() {
-      const res = await fetch("http://localhost:5000/api/posts");
+      const res = await fetch("http://localhost:5001/api/posts");
       const data = await res.json();
       const tbody = document.querySelector("#post-table tbody");
       tbody.innerHTML = "";
@@ -39,7 +39,7 @@
       e.preventDefault();
       const title = document.getElementById("title").value;
       const content = document.getElementById("content").value;
-      await fetch("http://localhost:5000/api/posts", {
+      await fetch("http://localhost:5001/api/posts", {
         method: "POST",
         headers: {"Content-Type": "application/json"},
         body: JSON.stringify({title, content})

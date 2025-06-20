@@ -1,0 +1,21 @@
+.post-form-container h2 {
+  color: #333;
+}
+
+.post-form input {
+  padding: 8px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.post-form button {
+  padding: 8px 16px;
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.post-form button:hover {
+  background-color: #008ecc;
+} 
