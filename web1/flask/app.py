@@ -1,11 +1,9 @@
-# ✅ app.py
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)  # React와 연동할 때 CORS 오류 방지
+CORS(app) 
 
-# 데이터 시뮬레이션
 posts = [
     {"id": 1, "title": "Hello", "content": "Welcome to Flask!"},
     {"id": 2, "title": "Olá", "content": "Bem-vindo ao Flask!"}
